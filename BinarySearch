@@ -1,0 +1,33 @@
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		int [] num = {15,17,19,21,35,38,40,41,49,51,53,55,57,62,65};
+		int FirstPos = 0;
+		int LastPos = num.length - 1;
+		int mid = 0;
+		int KeyNum = 55;
+		
+		while(FirstPos<=LastPos) {
+			mid = (FirstPos + LastPos)/2;
+			if(KeyNum == num[mid]) {
+				System.out.println("Your search is over, the number " + KeyNum + " is inside this array, at position " + mid);
+				break;
+			}
+			else if(KeyNum < num[mid]) {
+					LastPos = mid - 1;
+					}
+				else if(KeyNum > num[mid]) {
+					FirstPos = mid + 1;				
+						}
+					}
+					if(FirstPos > LastPos) {
+						System.out.println("Your search is over, but we did not find the number - " + KeyNum + ", it appears this number is not inside this array.");
+				}
+	
+			}
+		
+		
+
+	}
+
+
