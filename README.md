@@ -7,3 +7,5 @@ Algorithm Quiz 1
   <li>Submit a binary search example by adding a file to this project after forking it. Be sure to explain how the example functions using comments or in this README.</li>
   <li>Is a selection sort or a bubble sort faster?</li>
  </ol>
+
+--- Sheevpalpatine.java is a program that can tell if a word is a palindrome - so it take a word and checks if the word is spelt the same     way back to front as it is front to back; e.i. level is a polindrome.
